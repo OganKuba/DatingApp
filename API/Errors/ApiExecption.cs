@@ -5,7 +5,7 @@ namespace API.Errors
     public class ApiExecption
     {
 
-        public ApiExecption(int statusCode, string details , string message) 
+        public ApiExecption(int statusCode, string message , string details) 
         {
             this.StatusCode = statusCode;
             this.Message = message;
